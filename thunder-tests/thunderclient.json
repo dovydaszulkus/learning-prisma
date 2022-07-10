@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "6fd2f502-c0c9-40c1-b3b9-d09eabc6b08e",
+    "colId": "79716e68-4908-4ab8-a1a8-2b69367c5b89",
+    "containerId": "",
+    "name": "Get all movies",
+    "url": "{{API_URL}}/api/movies",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-07-10T10:14:54.969Z",
+    "modified": "2022-07-10T10:20:07.687Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ac4f64bb-029b-4da6-9622-baed759ba282",
+    "colId": "79716e68-4908-4ab8-a1a8-2b69367c5b89",
+    "containerId": "",
+    "name": "Add new movie",
+    "url": "{{API_URL}}/api/movies",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-07-10T10:21:09.522Z",
+    "modified": "2022-07-10T10:57:05.972Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"movieId\": 438148\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "920f98d1-695a-4d34-9064-006fb11593ca",
+    "colId": "79716e68-4908-4ab8-a1a8-2b69367c5b89",
+    "containerId": "",
+    "name": "Get a single movie",
+    "url": "{{API_URL}}/api/movies/7",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-07-10T10:21:23.695Z",
+    "modified": "2022-07-10T14:14:39.338Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2b958fcc-b36f-4395-960f-b58b9bb5a477",
+    "colId": "79716e68-4908-4ab8-a1a8-2b69367c5b89",
+    "containerId": "",
+    "name": "Update a movie",
+    "url": "{{API_URL}}/api/movies/7",
+    "method": "PUT",
+    "sortNum": 40000,
+    "created": "2022-07-10T10:22:00.530Z",
+    "modified": "2022-07-10T15:18:12.161Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\": \"Minions: The Rise of Gru\",\n  \"genres\": [\n    {\n      \"name\": \"Family\"\n    },\n    {\n      \"name\": \"Animation\"\n    },\n    {\n      \"name\": \"Adventure\"\n    },\n    {\n      \"name\": \"Comedy\"\n    },\n    {\n      \"name\": \"Fantasy\"\n    }\n  ]\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7c9b8ab1-7a17-4f44-8bb7-952d153bf49b",
+    "colId": "79716e68-4908-4ab8-a1a8-2b69367c5b89",
+    "containerId": "",
+    "name": "Delete a movie",
+    "url": "{{API_URL}}/api/movies/5",
+    "method": "DELETE",
+    "sortNum": 50000,
+    "created": "2022-07-10T10:22:02.221Z",
+    "modified": "2022-07-10T14:09:14.795Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

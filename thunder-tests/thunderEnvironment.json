@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "5fc2cad2-d520-4fd8-bcb8-15e3383c4eda",
+    "name": "local",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-07-10T10:15:39.270Z",
+    "modified": "2022-07-10T10:18:33.739Z",
+    "data": [
+      {
+        "name": "API_URL",
+        "value": "http://localhost:{{PORT}}"
+      }
+    ],
+    "envFile": "../express-api/.env"
+  }
+]
